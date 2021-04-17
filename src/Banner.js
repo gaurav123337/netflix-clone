@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from './axios';
 import requests from './request';
+import './Banner.css';
 
 const Banner = () => {
   const [movie, setMovie] = useState([]);
@@ -19,14 +20,11 @@ const Banner = () => {
 
   return (
     <header
-      className="banner1"
+      className="banner"
       style={{
         backgroundSize: "cover",
         backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
         backdropPosition: "center center",
-        color: 'white',
-        objectFit: 'contain',
-        height: '448px',
       }}
     >
       {/* Background image */}
