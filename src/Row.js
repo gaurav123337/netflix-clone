@@ -3,7 +3,7 @@ import './Row.css';
 
 import axios from './axios';
 import Youtube from "react-youtube";
-import movieTrailer from 'movie-trailer';
+// import movieTrailer from 'movie-trailer';
 
 const baseImgUrl = "https://image.tmdb.org/t/p/original";
 
