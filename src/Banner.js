@@ -19,11 +19,14 @@ const Banner = () => {
 
   return (
     <header
-      className="banner"
+      className="banner1"
       style={{
         backgroundSize: "cover",
         backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
         backdropPosition: "center center",
+        color: 'white',
+        objectFit: 'contain',
+        height: '448px',
       }}
     >
       {/* Background image */}
